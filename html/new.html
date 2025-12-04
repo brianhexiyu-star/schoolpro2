@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Children's Storybook Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#f2f7ff, #dfe9ff); /* Background 1 */
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2a4d8f;
+            background: url('pattern.png'); /* Background 2 */
+            border: 4px solid #2a4d8f; /* Border 1 */
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .content-section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.65); /* Background 3 */
+            border-radius: 12px;
+            line-height: 1.6;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+            border-left: 6px solid #8faadc; /* Border 2 */
+            border-right: 6px dashed #4a6fa5; /* Border 3 */
+        }
+        .pdf-box {
+            background: repeating-linear-gradient(45deg, #ffffff, #ffffff 10px, #f7f9fc 10px, #f7f9fc 20px); /* Background 4 */
+            border: 5px double #2a4d8f; /* Border 4 */
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My AI Children's Storybook</h1>
+
+    <!-- PDF EMBED -->
+    <div class="content-section pdf-box">
+        <h2>Storybook PDF Preview</h2>
+        <embed src="story.pdf" type="application/pdf" width="80%" height="600px" />
+        <p>If the PDF does not load, <a href="story.pdf" target="_blank">click here to open it</a>.</p>
+    </div>
+
+    <!-- STORY SUMMARY -->
+    <div class="content-section">
+        <h2>Story Summary</h2>
+        <p>
+            In this story, Snow White is living peacefully in the forest when the Evil Queen plots once again to trick her with a poison apple. However, this time the modern world is connected to the fairy-tale world, and Iron Man detects unusual energy signals coming from the Queen’s laboratory. Curious and concerned, he investigates and discovers that Snow White is in danger. Using his advanced suit sensors, he locates her just moments before she takes a bite of the poisoned apple. Iron Man quickly scans the apple and identifies the dangerous chemical inside it. He uses a small neutralizing device from his suit to dissolve the poison safely. After saving her, he teaches Snow White how modern technology can help protect her from future tricks. Together, they come up with a plan to keep the forest safe using drones and alert systems so the Queen can never harm her again.
+        </p>
+    </div>
+
+    <!-- MORAL PARAGRAPH -->
+    <div class="content-section">
+        <h2>Moral of the Story</h2>
+        <p>
+            The moral of the story is that bravery and intelligence can work together to overcome danger. It also shows that technology, when used responsibly, can help keep people safe and support others who may not be able to protect themselves.
+        </p>
+    </div>
+
+</body>
+</html>

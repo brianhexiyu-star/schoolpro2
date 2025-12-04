@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Batman & Superman Movies (from 1989)</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.45;margin:20px;background:#f7f7fb;color:#111}
+    header{margin-bottom:18px}
+    h1{font-size:1.6rem;margin:0 0 6px}
+    p{margin:0 0 12px;color:#333}
+    ol.movie-list{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06);}
+    ol.movie-list li{margin:10px 0;padding:6px 8px;border-radius:6px}
+
+    table{width:100%;border-collapse:collapse;margin-top:18px;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+    thead th{background:#0b2345;color:#fff;padding:12px;text-align:left}
+    tbody td{padding:12px;vertical-align:middle;border-top:1px solid #eee}
+
+    .movie-cell, .actor-cell{display:flex;gap:14px;align-items:center}
+    .movie-poster, .actor-photo{width:120px;height:180px;object-fit:cover;border-radius:6px;flex-shrink:0;border:1px solid #ddd}
+    .actor-photo{width:110px;height:110px;border-radius:8px}
+    .meta{max-width:calc(100% - 140px)}
+    .title{font-weight:700;margin-bottom:6px}
+    .sub{color:#555;font-size:0.95rem}
+
+    /* responsive */
+    @media (max-width:700px){
+      .movie-poster, .actor-photo{width:90px;height:135px}
+      .actor-photo{width:90px;height:90px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ordered list — Batman & Superman movies (from 1989)</h1>
+    <p>This page shows an ordered list of major theatrical Batman or Superman movies released from 1989 onward, and a two-column table with a poster + movie title in column 1 and the actor who played Batman/Superman in column 2. I used placeholder images so the page is ready to run — replace the image <code>src</code> URLs with real poster/actor images if you want.</p>
+  </header>
+
+  <section>
+    <ol class="movie-list">
+      <li>Batman (1989) — Michael Keaton</li>
+      <li>Batman Returns (1992) — Michael Keaton</li>
+      <li>Batman Forever (1995) — Val Kilmer</li>
+      <li>Batman &amp; Robin (1997) — George Clooney</li>
+      <li>Batman Begins (2005) — Christian Bale</li>
+      <li>Superman Returns (2006) — Brandon Routh</li>
+      <li>The Dark Knight (2008) — Christian Bale</li>
+      <li>The Dark Knight Rises (2012) — Christian Bale</li>
+      <li>Man of Steel (2013) — Henry Cavill</li>
+      <li>Batman v Superman: Dawn of Justice (2016) — Ben Affleck (Batman) &amp; Henry Cavill (Superman)</li>
+      <li>The Lego Batman Movie (2017) — (voice) Will Arnett</li>
+      <li>Justice League (2017) — Ben Affleck (Batman) &amp; Henry Cavill (Superman)</li>
+      <li>Zack Snyder's Justice League (2021) — Ben Affleck (Batman) &amp; Henry Cavill (Superman)</li>
+      <li>The Batman (2022) — Robert Pattinson</li>
+      <li>The Flash (2023) — Michael Keaton &amp; Ben Affleck (appearances as Batman)</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2 style="margin-top:20px">Two-column table — Movie (poster) | Actor (photo)</h2>
+    <table>
+      <thead>
+        <tr><th>Movie</th><th>Actor who played Batman / Superman</th></tr>
+      </thead>
+      <tbody>
+
+        <!-- Row: Batman (1989) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://m.media-amazon.com/images/I/71yST9nOd3L.jpg">
+              <div class="meta">
+                <div class="title">Batman (1989)</div>
+                <div class="sub">Directed by Tim Burton — Michael Keaton as Batman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Michael_Keaton-63916_%28cropped%29.jpg/250px-Michael_Keaton-63916_%28cropped%29.jpg" alt="Michael Keaton">
+              <div>
+                <div class="title">Michael Keaton</div>
+                <div class="sub">Portrayed Batman / Bruce Wayne</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: Batman Returns (1992) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="data:image/jpeg;base64,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" alt="Batman Returns (1992) poster">
+              <div class="meta">
+                <div class="title">Batman Returns (1992)</div>
+                <div class="sub">Directed by Tim Burton — Michael Keaton as Batman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Michael_Keaton-63916_%28cropped%29.jpg/250px-Michael_Keaton-63916_%28cropped%29.jpg" alt="Michael Keaton">
+              <div>
+                <div class="title">Michael Keaton</div>
+                <div class="sub">Portrayed Batman / Bruce Wayne</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: Batman Forever (1995) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://preview.redd.it/opinion-batman-forever-is-overly-hated-v0-azvje0agptcc1.jpeg?auto=webp&s=260d5e4f18f99e848ad01731ed942a2b5bddf7e0" alt="Batman Forever (1995) poster">
+              <div class="meta">
+                <div class="title">Batman Forever (1995)</div>
+                <div class="sub">Directed by Joel Schumacher — Val Kilmer as Batman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="data:image/jpeg;base64,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" alt="Val Kilmer">
+              <div>
+                <div class="title">Val Kilmer</div>
+                <div class="sub">Portrayed Batman / Bruce Wayne</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: Batman & Robin (1997) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://m.media-amazon.com/images/M/MV5BYzU3ZjE3M2UtM2E4Ni00MDI5LTkyZGUtOTFkMGIyYjNjZGU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Batman &amp; Robin (1997) poster">
+              <div class="meta">
+                <div class="title">Batman &amp; Robin (1997)</div>
+                <div class="sub">Directed by Joel Schumacher — George Clooney as Batman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://www.onthisday.com/images/people/george-clooney.jpg?w=360" alt="George Clooney">
+              <div>
+                <div class="title">George Clooney</div>
+                <div class="sub">Portrayed Batman / Bruce Wayne</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: Batman Begins (2005) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Batman_Begins_Poster.jpg/250px-Batman_Begins_Poster.jpg" alt="Batman Begins (2005) poster">
+              <div class="meta">
+                <div class="title">Batman Begins (2005)</div>
+                <div class="sub">Directed by Christopher Nolan — Christian Bale as Batman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Christian_Bale_2009.jpg" alt="Christian Bale">
+              <div>
+                <div class="title">Christian Bale</div>
+                <div class="sub">Portrayed Batman / Bruce Wayne</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: Superman Returns (2006) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://m.media-amazon.com/images/M/MV5BMjg1ZGRiMTEtYmU4Zi00NTkwLWJmODQtMjU3MTAyMGQ2OGZlXkEyXkFqcGc@._V1_.jpg" alt="Superman Returns (2006) poster">
+              <div class="meta">
+                <div class="title">Superman Returns (2006)</div>
+                <div class="sub">Directed by Bryan Singer — Brandon Routh as Superman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Brandon_Routh_by_Gage_Skidmore_2.jpg/960px-Brandon_Routh_by_Gage_Skidmore_2.jpg" alt="Brandon Routh">
+              <div>
+                <div class="title">Brandon Routh</div>
+                <div class="sub">Portrayed Superman / Clark Kent</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: The Dark Knight (2008) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://m.media-amazon.com/images/I/71dwS9phhCL._AC_UF894,1000_QL80_.jpg" alt="The Dark Knight (2008) poster">
+              <div class="meta">
+                <div class="title">The Dark Knight (2008)</div>
+                <div class="sub">Directed by Christopher Nolan — Christian Bale as Batman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Christian_Bale_2009.jpg" alt="Christian Bale">
+              <div>
+                <div class="title">Christian Bale</div>
+                <div class="sub">Portrayed Batman / Bruce Wayne</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: The Dark Knight Rises (2012) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTF3Z2Lj15evB9SeF20AUytGDb4VA99b8H_g&s" alt="The Dark Knight Rises (2012) poster">
+              <div class="meta">
+                <div class="title">The Dark Knight Rises (2012)</div>
+                <div class="sub">Directed by Christopher Nolan — Christian Bale as Batman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Christian_Bale_2009.jpg" alt="Christian Bale">
+              <div>
+                <div class="title">Christian Bale</div>
+                <div class="sub">Portrayed Batman / Bruce Wayne</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: Man of Steel (2013) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://media.themoviedb.org/t/p/w220_and_h330_face/8GFtkImmK0K1VaUChR0n9O61CFU.jpg" alt="Man of Steel (2013) poster">
+              <div class="meta">
+                <div class="title">Man of Steel (2013)</div>
+                <div class="sub">Directed by Zack Snyder — Henry Cavill as Superman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Henry_Cavill_at_the_2009_Tribeca_Film_Festival.jpg/250px-Henry_Cavill_at_the_2009_Tribeca_Film_Festival.jpg" alt="Henry Cavill">
+              <div>
+                <div class="title">Henry Cavill</div>
+                <div class="sub">Portrayed Superman / Clark Kent</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Row: Batman v Superman (2016) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://image.tmdb.org/t/p/original/lQUFeo0oRvtiLKlT5zkQkuCW4jA.jpg" alt="Batman v Superman (2016) poster">
+              <div class="meta">
+                <div class="title">Batman v Superman: Dawn of Justice (2016)</div>
+                <div class="sub">Directed by Zack Snyder — Ben Affleck as Batman, Henry Cavill as Superman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://m.media-amazon.com/images/M/MV5BNTFjZDU5NmYtYzZlMy00YThmLTg5ZjUtYjkyZWI2OTk2Mjc1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Ben Affleck">
+              <img class="actor-photo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Henry_Cavill_at_the_2009_Tribeca_Film_Festival.jpg/250px-Henry_Cavill_at_the_2009_Tribeca_Film_Festival.jpg" alt="Henry Cavill" style="margin-left:8px">
+              <div>
+                <div class="title">Ben Affleck &amp; Henry Cavill</div>
+                <div class="sub">Affleck = Batman / Cavill = Superman</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+      
+
+
+        <!-- Row: The Batman (2022) -->
+        <tr>
+          <td>
+            <div class="movie-cell">
+              <img class="movie-poster" src="https://m.media-amazon.com/images/M/MV5BMmU5NGJlMzAtMGNmOC00YjJjLTgyMzUtNjAyYmE4Njg5YWMyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Batman (2022) poster">
+              <div class="meta">
+                <div class="title">The Batman (2022)</div>
+                <div class="sub">Directed by Matt Reeves — Robert Pattinson as Batman</div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="actor-cell">
+              <img class="actor-photo" src="https://m.media-amazon.com/images/M/MV5BNzk0MDQ5OTUxMV5BMl5BanBnXkFtZTcwMDM5ODk5Mg@@._V1_FMjpg_UX1000_.jpg" alt="Robert Pattinson">
+              <div>
+                <div class="title">Robert Pattinson</div>
+                <div class="sub">Portrayed Batman / Bruce Wayne</div>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        
+
+      </tbody>
+    </table>
+
+    <p style="margin-top:12px;color:#555;font-size:0.95rem">Notes: This page shows a curated list of well-known theatrical Batman &amp; Superman movies from 1989 onward (major live-action theatrical films plus a notable animated theatrical entry). If you'd like every animated direct-to-video title, or for me to replace the placeholder images with real posters and actor headshots (sourced from the web), tell me and I will update the page.</p>
+  </section>
+
+</body>
+</html>
