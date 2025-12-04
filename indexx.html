@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delicious Bites Restaurant</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f4e8; }
+  header { background: #d35400; color: white; padding: 20px; text-align: center; }
+  h1, h2 { margin: 10px 0; }
+  .section { padding: 20px; }
+  ul { list-style-type: square; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  table, th, td { border: 2px solid #d35400; }
+  th, td { padding: 10px; text-align: center; }
+  img { width: 100%; height: 100%; object-fit: cover; margin: 10px 0; border: 2px solid #d35400; }
+.gallery { display: block; }
+  iframe { width: 100%; height: 200px; border: 2px solid #d35400; margin-top: 20px; }
+  .video { width: 100%; margin-top: 10px; }
+  /* animated scrolling text */
+  .scroll { width: 100%; overflow: hidden; white-space: nowrap; background: #d35400; color: white; font-weight: bold; padding: 10px; }
+  .scroll span { display: inline-block; animation: marquee 10s linear infinite; }
+  @keyframes marquee { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Delicious Bites Restaurant</h1>
+  <p>Your favorite place for mouth-watering meals</p>
+</header>
+<div class="scroll"><span>Welcome to Delicious Bites! Fresh ingredients, great taste, and friendly service!</span></div>
+<section class="section">
+  <h2>About Us</h2>
+  <p>We are a family-owned restaurant that specializes in fresh, flavorful dishes inspired by global cuisine. Our mission is to serve quality food made with love.</p>
+  <p>Whether you're here for a quick bite or a full meal, we promise a satisfying experience.</p>
+  <ul>
+    <li>Fresh ingredients</li>
+    <li>Friendly staff</li>
+    <li>Cozy atmosphere</li>
+  </ul>
+</section>
+<section class="section">
+  <h2>Menu Highlights</h2>
+  <table>
+<tr><th>Dish</th><th>Category</th><th>Price</th></tr>
+<tr><td>Green Apple</td><td>Appetizer</td><td>$5.99</td></tr>
+<tr><td>Hot Fry Chicken</td><td>Main Course</td><td>$13.49</td></tr>
+<tr><td>Lobster</td><td>Main Course</td><td>$24.99</td></tr>
+<tr><td>Magic Dish</td><td>Main Course</td><td>$15.99</td></tr>
+<tr><td>Puddin</td><td>Dessert</td><td>$6.25</td></tr>
+<tr><td>Wagyu Burger</td><td>Main Course</td><td>$18.75</td></tr>
+</table>
+</section>
+<section class="section">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="GreenApple.jpeg" alt="Image from DaWanNaTie" />
+    <img src="Hot Fry Chicken.jpg" alt="Image from DaWanNaTie" />
+    <img src="Lobster.jpeg" alt="Image from DaWanNaTie" />
+    <img src="MagicDish.jpg" alt="Image from DaWanNaTie" />
+    <img src="Puddin.jpg" alt="Image from DaWanNaTie" />
+    <img src="WagyuBurger.jpg" alt="Image from DaWanNaTie" />
+  </div>
+</section>
+<section class="section">
+  <h2>Video Tour</h2>
+  <iframe width="966" height="543" src="https://www.youtube.com/embed/FVzdkDLyuHY" title="Inside NYC’s Only 3 Michelin Star Korean Restaurant | On The Line | Bon Appétit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<section class="section">
+  <h2>Find Us</h2>
+  <p>Visit our official website: <a href="https://example.com" target="_blank">Official Restaurant Website</a></p>
+  <iframe src="https://www.wikipedia.org" title="Wikipedia"></iframe>
+</section>
+</body>
+</html>
