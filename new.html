@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Children's Storybook Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(#f2f7ff, #dfe9ff); /* Background 1 */
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2a4d8f;
+            background: url('pattern.png'); /* Background 2 */
+            border: 4px solid #2a4d8f; /* Border 1 */
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .content-section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.65); /* Background 3 */
+            border-radius: 12px;
+            line-height: 1.6;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+            border-left: 6px solid #8faadc; /* Border 2 */
+            border-right: 6px dashed #4a6fa5; /* Border 3 */
+        }
+        /* Style for the new image gallery container */
+        .image-gallery {
+            display: flex; /* Arranges children side-by-side */
+            justify-content: space-around; /* Adds space between images */
+            gap: 15px; /* Space between images */
+            flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+            background: repeating-linear-gradient(45deg, #ffffff, #ffffff 10px, #f7f9fc 10px, #f7f9fc 20px); /* Background 4 */
+            border: 5px double #2a4d8f; /* Border 4 */
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .image-gallery img {
+            max-width: 50%; /* Ensures three images fit well in the container */
+            height: 50%;
+            border: 3px solid #4a6fa5;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .image-gallery img:hover {
+            transform: scale(1.05); /* Slight zoom on hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>My AI Children's Storybook</h1>
+
+    <div class="content-section image-gallery">
+        <h2>Storybook Pages Preview</h2>
+        <img src="storypg1.png" alt="Snow White in the forest" />
+        <img src="storypg2.png" alt="Iron Man saving Snow White" />
+        <img src="storypg3.png" alt="Snow White and Iron Man with technology" />
+    </div>
+
+    <div class="content-section">
+        <h2>Story Summary</h2>
+        <p>
+            In this story, Snow White is living peacefully in the forest when the Evil Queen plots once again to trick her with a poison apple. However, this time the modern world is connected to the fairy-tale world, and Iron Man detects unusual energy signals coming from the Queen’s laboratory. Curious and concerned, he investigates and discovers that Snow White is in danger. Using his advanced suit sensors, he locates her just moments before she takes a bite of the poisoned apple. Iron Man quickly scans the apple and identifies the dangerous chemical inside it. He uses a small neutralizing device from his suit to dissolve the poison safely. After saving her, he teaches Snow White how modern technology can help protect her from future tricks. Together, they come up with a plan to keep the forest safe using drones and alert systems so the Queen can never harm her again.
+        </p>
+    </div>
+
+    <div class="content-section">
+        <h2>Moral of the Story</h2>
+        <p>
+            The moral of the story is that bravery and intelligence can work together to overcome danger. It also shows that technology, when used responsibly, can help keep people safe and support others who may not be able to protect themselves.
+        </p>
+    </div>
+
+</body>
+</html>
